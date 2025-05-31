@@ -1,0 +1,11 @@
+export { default as Jobs } from "./Jobs.tsx";
+export { default as AllDepartments } from "./AllDepartments.tsx";
+export { default as AllEmployees } from "./AllEmployees.tsx";
+export { default as Attendance } from "./Attendance.tsx";
+export { default as Candidates } from "./Candidates.tsx";
+export { default as Dashboard } from "./Dashboard.tsx";
+export { default as Holidays } from "./Holidays.tsx";
+export { default as Leaves } from "./Leaves.tsx";
+export { default as Login } from "./Login.tsx";
+export { default as Payroll } from "./Payroll.tsx";
+export { default as Settings } from "./Settings.tsx";

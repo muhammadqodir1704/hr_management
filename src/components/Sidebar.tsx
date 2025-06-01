@@ -53,7 +53,6 @@ const pages = [
     path: "/Settings",
   },
 ];
-
 function Sidebar() {
   const location = useLocation();
   return (

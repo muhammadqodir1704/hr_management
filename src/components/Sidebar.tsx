@@ -53,7 +53,6 @@ const pages = [
     path: "/Settings",
   },
 ];
-
 function Sidebar() {
   const location = useLocation();
   return (
@@ -78,7 +77,7 @@ function Sidebar() {
                 } w-1.5 rounded-[10px]`}
               />
               <img src={page.icon} alt="name" />
-              <span className="font-semibold text-sm">{page.name}</span>
+              <span  className="font-semibold text-sm">{page.name}</span>
             </Link>
           );
         })}

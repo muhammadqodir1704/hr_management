@@ -2,10 +2,9 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import SearchInput from "./SearchInput";
 
 function Header() {
   return (
@@ -18,10 +17,7 @@ function Header() {
       </div>
       <div className="flex gap-[20px] items-center">
         {/* Search input */}
-        <div className="px-4 py-3 rounded-[10px] border border-gray-90/10 flex gap-2.5 items-center">
-          <img src="../assets/icons/Search-icon.svg" alt="" />
-          <input className="outline-0" type="text" placeholder="Search" />
-        </div>
+        <SearchInput />
         <div className="p-3 rounded-[10px] w-[50px] h-[50px] bg-gray-10 cursor-pointer">
           <img src="../assets/icons/notification.svg" alt="notification icon" />
         </div>
